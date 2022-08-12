@@ -1,0 +1,13 @@
+<!--pages/message/message.wxml-->
+<view>{{m1.toUpper(userName)}}</view>
+<button bindtap="backToHome">返回</button>
+
+<view>{{m2.toLower(country)}}</view>
+
+<wxs module="m1">
+    module.exports.toUpper = function(str){
+        return str.toUpperCase()
+    }
+</wxs>
+
+<wxs module="m2" src="../../utils/tools.wxs"></wxs>
