@@ -4,6 +4,8 @@
 
 <view>{{m2.toLower(country)}}</view>
 
+<view>88888888</view>
+
 <wxs module="m1">
     module.exports.toUpper = function(str){
         return str.toUpperCase()
