@@ -30,6 +30,12 @@ Page({
           })
     },
 
+    getShopList(){
+        wx.request({
+          url: 'https://www.escook.cn/categories/${this.data.query.id}/shops',
+        })
+    }
+
     /**
      * 生命周期函数--监听页面显示
      */
