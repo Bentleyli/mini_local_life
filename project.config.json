@@ -45,7 +45,7 @@
         "checkSiteMap": false
     },
     "compileType": "miniprogram",
-    "libVersion": "2.19.4",
+    "libVersion": "2.17.0",
     "appid": "wx74ad4f785be49d66",
     "projectname": "miniprogram-92",
     "condition": {},
